@@ -1,16 +1,54 @@
-body{
+body {   
     background-color: #393939;
-    color:aliceblue;
+    color: aliceblue;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#nav { 
+    background-color: #303030;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+}
+
+#logo {
+    justify-self: left;
+    margin-left: 5rem;
+    float: left !important;
+}
+
+.push {
+    margin-left: auto !important;
+}
+
+#nav>a {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 5rem;
+    width: auto;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
+}
+
+@media all and (max-width: 1000px){
+    #nav a{
+        margin-right: 2rem;
+    }
+    #logo{
+        margin-left: 2rem;
+    }
+}
+
 .container {
+    margin-top: 7rem;
     width: 100%;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
     margin-left: auto;
-    
     margin-right: auto;
 }
 
@@ -18,7 +56,6 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    
     margin-right: -0.75rem;
     margin-left: -0.75rem;
     margin-top: 0;
@@ -37,5 +74,3 @@ body{
 .col {
     flex: 1 0 0%;
 }
-
-
