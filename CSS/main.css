@@ -6,7 +6,7 @@ body {
 }
 
 #nav { 
-    background-color: #303030;
+    background-color: #393939;
     position: fixed;
     top: 0;
     display: flex;
@@ -34,12 +34,20 @@ body {
     font-size: larger;
 }
 
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
 @media all and (max-width: 1000px){
     #nav a{
         margin-right: 2rem;
     }
     #logo{
         margin-left: 2rem;
+    }
+    #footer > *{
+        margin-left: 1rem !important;
     }
 }
 
@@ -73,4 +81,29 @@ body {
 
 .col {
     flex: 1 0 0%;
+}
+
+.col4{
+    flex: 0 0 auto;
+    width: 25% !important;
+}
+
+.col2{
+    flex: 0 0 auto;
+    width: 50% !important;
+}
+
+#footer{
+    margin-top: 5rem !important;
+    background-color: #494949;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#footer>*{
+    margin-left: 3rem;
+}
+
+#footer>.row>.row>.col{
+    margin-top: 2rem;
 }
