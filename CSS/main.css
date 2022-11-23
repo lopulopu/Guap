@@ -4,6 +4,7 @@ body {
     background-color: var(--bg-color);
     color: var(--color-text);
     font-size: large;
+    width: 95%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -66,7 +67,7 @@ a {
 
 .container {
     margin-top: 7rem;
-    width: 95%;
+    width: 100%;
     padding-left: 2rem;
     padding-right: 4rem;
     margin-left: auto;
@@ -194,6 +195,9 @@ hr {
 }
 .mt{
     margin-top: 5rem;
+}
+.mts{
+    margin-top: 2rem;
 }
 .ml{
     margin-left: 2rem;
