@@ -27,6 +27,40 @@ class header extends React.Component {
         )
     }
 }
+
+class footer extends React.Component {
+    render() {
+        return /*#__PURE__*/React.createElement("footer", {
+            id: "footer",
+            class: "container row"
+        }, /*#__PURE__*/React.createElement("div", {
+            class: "row"
+        }, /*#__PURE__*/React.createElement("h1", null, "\u041D\u0430\u043F\u0438\u0448\u0438 \u043D\u0430\u043C")), /*#__PURE__*/React.createElement("div", {
+            class: "row"
+        }, /*#__PURE__*/React.createElement("div", {
+            class: "row col2 col"
+        }, /*#__PURE__*/React.createElement("a", {
+            href: "#",
+            class: "col col2"
+        }, "\u041F\u043E\u0447\u0442\u0430")), /*#__PURE__*/React.createElement("div", {
+            class: "row col2 col"
+        }, /*#__PURE__*/React.createElement("a", {
+            href: "#",
+            class: "col col2"
+        }, "\u041E \u043D\u0430\u0441"), /*#__PURE__*/React.createElement("a", {
+            href: "#",
+            class: "col col2"
+        }, "\u0418\u043D\u0441\u0442\u0430\u0433\u0440\u0430\u043C"), /*#__PURE__*/React.createElement("a", {
+            href: "#",
+            class: "col col2"
+        }, "\u041A\u0435\u0439\u0441\u044B"), /*#__PURE__*/React.createElement("a", {
+            href: "#",
+            class: "col col2"
+        }, "\u0422\u0432\u0438\u0442\u0442\u0435\u0440"))));
+    }
+}
 const domContainer = document.getElementById("nav");
 const root = ReactDOM.createRoot(domContainer);
 root.render(React.createElement(header, null, null));
+
+ReactDOM.createRoot(document.getElementById("foot")).render(React.createElement(footer,null,null))
