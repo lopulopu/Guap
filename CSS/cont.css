@@ -1,5 +1,5 @@
 body {
-    --bg-color: #393939;
+    --bg-color: #767171;
     --color-text: aliceblue;
     background-color: var(--bg-color);
     color: var(--color-text);
@@ -32,17 +32,17 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-right: 5rem;
-    width: auto;    
-    font-size: larger;
-}
-
-a {
+    width: auto;
     color: var(--color-text);
     text-decoration: none;
+    font-size: larger;
 }
-
-a:hover {
-    color:#F0E68C;
+h2,h3{
+    color:#e5e5e5 ;
+    text-decoration: none;
+}
+a {
+    color:#e5e5e5 ;
     text-decoration: none;
 }
 
@@ -117,9 +117,13 @@ a:hover {
 
 #footer {
     margin-top: 5rem !important;
-    background-color: #494949;
+    background-color: #ffffff;
+    color:#333333;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+#footer a {
+    color:#333333;
 }
 
 #footer>* {
