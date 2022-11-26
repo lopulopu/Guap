@@ -1,5 +1,5 @@
 body {
-    --bg-color: #393939;
+    --bg-color: #767171;
     --color-text: aliceblue;
     background-color: var(--bg-color);
     color: var(--color-text);
@@ -32,17 +32,17 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-right: 5rem;
-    width: auto;    
-    font-size: larger;
-}
-
-a {
+    width: auto;
     color: var(--color-text);
     text-decoration: none;
+    font-size: larger;
 }
-
-a:hover {
-    color:#F0E68C;
+h2,h3{
+    color:#e5e5e5 ;
+    text-decoration: none;
+}
+a {
+    color:#e5e5e5 ;
     text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ a:hover {
     max-width: 1100px;
 }
 
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
     #nav a {
         margin-right: 2rem;
     }
@@ -65,9 +65,6 @@ a:hover {
 
     hr {
         margin-left: 2rem;
-    }
-    .col,.col2,.col3,.col4{
-        width: 100% !important;
     }
 }
 
@@ -96,7 +93,7 @@ a:hover {
     max-width: 100%;
     padding-right: 0.75rem;
     padding-left: 0.75rem;
-    margin-top: 1rem;
+    margin-top: 0;
 }
 
 .col {
@@ -105,25 +102,28 @@ a:hover {
 
 .col4 {
     flex: 0 0 auto;
-    width: 25%;
+    width: 25% !important;
 }
 
 .col2 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 50% !important;
 }
 
 .col3 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 33.33333333% !important;
 }
 
 #footer {
-    margin-left: -2.5rem;
     margin-top: 5rem !important;
-    background-color: #494949;
+    background-color: #ffffff;
+    color:#333333;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+#footer a {
+    color:#333333;
 }
 
 #footer>* {
@@ -217,9 +217,4 @@ hr {
 .card-hr{
     margin-left: unset;
     margin-right: unset;
-}
-input, button{
-    border-radius: 20px;
-    height: 3rem;
-    font-size: large;
 }
