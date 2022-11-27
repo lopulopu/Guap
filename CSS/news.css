@@ -101,22 +101,25 @@ a {
 }
 
 .col {
-    flex: 1 0 0%;
+    flex: 0 0 auto;
+    width: 15% !important;
+    height: 100%;
 }
 
 .col4 {
     flex: 0 0 auto;
-    width: 25% !important;
+    width: 10% !important;
+    height: 100%;
 }
 
 .col2 {
     flex: 0 0 auto;
-    width: 50% !important;
+    width: 40% !important;
 }
 
 .col3 {
     flex: 0 0 auto;
-    width: 33.33333333% !important;
+    width: 40% !important;
 }
 
 #footer {
@@ -142,11 +145,8 @@ a {
     font-size: 5rem;
 }
 
-.row-center {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 1rem;
+.imag{
+    width: 10px;
 }
 
 .arrows {
