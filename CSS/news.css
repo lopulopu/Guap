@@ -1,41 +1,17 @@
 body {
-    --bg-color: #;
-    --color-text: 000000;
+    --bg-color: #ffffff;
+    --color-text: #000000;
     background-color: var(--bg-color);
     color: var(--color-text);
-    font-size: large;
-    width: 95%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #nav {
     background-color: var(--bg-color);
-    position: fixed;
-    top: 0;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap !important;
-}
-
-#logo {
-    justify-self: left;
-    margin-left: 5rem;
-    float: left !important;
-}
-
-.push {
-    margin-left: auto !important;
 }
 
 #nav>a {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-right: 5rem;
-    width: auto;
-    color: var(--color-text);
-    text-decoration: none;
-    font-size: larger;
+     color: var(--color-text);
 }
 h1{
     color:#8f8f8f;
@@ -101,34 +77,36 @@ a {
 }
 
 .col {
-    flex: 1 0 0%;
+    flex: 0 0 auto;
+    width: 15% !important;
+    height: 100%;
 }
 
 .col4 {
     flex: 0 0 auto;
-    width: 25% !important;
+    width: 10% !important;
+    height: 100%;
 }
 
 .col2 {
     flex: 0 0 auto;
-    width: 50% !important;
+    width: 40% !important;
 }
 
 .col3 {
     flex: 0 0 auto;
-    width: 33.33333333% !important;
+    width: 40% !important;
 }
 
+
 #footer {
-    margin-top: 5rem !important;
     background-color: #ffffff;
     color:#333333;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 #footer a {
     color:#333333;
 }
+
 
 #footer>* {
     margin-left: 3rem;
@@ -142,11 +120,8 @@ a {
     font-size: 5rem;
 }
 
-.row-center {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 1rem;
+.imag{
+    width: 10px;
 }
 
 .arrows {
@@ -222,3 +197,4 @@ hr {
     margin-left: unset;
     margin-right: unset;
 }
+
