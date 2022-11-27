@@ -8,46 +8,45 @@
 
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/cont.css">
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
 
 </head>
 
 <body>
-    <div class="header shadow">
-        <div id="nav" class="row">
-            <a href="#" id="logo">Лого</a>
-            <a href="#" class="navlink push">Главная</a>
-            <a href="#" class="navlink">Кейсы</a>
-            <a href="#" class="navlink">Новости</a>
-            <a href="#" class="navlink">О нас</a>
-        </div>
-    </div>
+    <div id="nav"></div>
 
 
     <div class="container">
         <div class="row">
             <h1 class="h1title col-justify-center">О нас</h1>
 
-        </div>   
-                <div class="row">
-                    <p>Мы являемся креативной рекламным агентством, который плавно перемещается между брендом и цифровым клиентским опытом. Мы верим, что творчество и исполнение идут рука об руку. Наша команда - это ремесленники. Именно поэтому мы называем себя студией, а не агентством.</p>           
+        </div>
+        <div class="row">
+            <p>Мы являемся креативной рекламным агентством, который плавно перемещается между брендом и цифровым
+                клиентским опытом. Мы верим, что творчество и исполнение идут рука об руку. Наша команда - это
+                ремесленники. Именно поэтому мы называем себя студией, а не агентством.</p>
+        </div>
+        <div class="row mt">
+            <div class="col col3">
+                <div class="card">
+                    <img src="Pics/vanya.jpg" alt="">
+                   
                 </div>
-          <div class="row mt">
-                <div class="col col3">
-                    <div class="card">
-                        <img src="Pics/vanya.jpg" alt="">
-                    </div>
+                <h2>Head IT-engineer</h2>
+            </div>
+            <div class="col col3">
+                <div class="card">
+                    <img src="Pics/yana.jpg" alt="">
                 </div>
-                <div class="col col3">
-                    <div class="card">
-                        <img src="Pics/yana.jpg" alt="">
-                    </div>
+            </div>
+            <div class="col col3">
+                <div class="card">
+                    <img src="Pics/ya.jpg" alt="">
                 </div>
-                <div class="col col3">
-                    <div class="card">
-                        <img src="Pics/ya.jpg" alt="">
-                    </div>
-                </div>                
-            </div>                
+            </div>
+        </div>
         <div class="row ">
             <div class="col3 col-justify-center">
                 <h2>Head IT-ingener</h2>
@@ -57,7 +56,7 @@
             </div>
             <div class="col3 col-justify-center">
                 <h2>Digital-маркетолог #1</h2>
-            </div>            
+            </div>
             <div class="row col-justify-center">
                 <p class="col col3">Иван Лобода</p>
                 <p class="col col3">Яна Васянина</p>
@@ -73,50 +72,33 @@
             </div>
         </div>
         <hr>
-        
-        <div class="col-sm-4">
-            <form action="thank-you.html" method="POST">
-                <legend>Связаться с нами:</legend>
 
-                <div class="form-group">
-                    <label for="">Введите ваше имя</label>
-                    <input type="text" class="form-control" id="" name="user_name" placeholder="Например, Иван">
+        <div class="row">
+            <form action="thank-you.html" class="row row-center col" method="POST">
+                <legend class="">Связаться с нами:</legend>
+
+                <div class="form-group row col col3">
+                    <label class="col" for="">Введите ваше имя</label>
+                    <input type="text" class="col form-control" id="" name="user_name" placeholder="Например, Иван">
                 </div>
 
-                <div class="form-group">
-                    <label for="">Введите номер телефона</label>
-                    <input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 99 99 999">
+                <div class="form-group row col col3">
+                    <label class="col" for="">Введите номер телефона</label>
+                    <input type="text" class="col form-control" id="" name="user_phone" placeholder="+7 (999) 99 99 999">
                 </div>
 
-                <div class="form-group">
-                    <label for="">Введите email</label>
-                    <input type="text" class="form-control" id="" name="user_email" placeholder="mail@mail.ru">
+                <div class="form-group row col col3">
+                    <label class="col" for="">Введите email</label>
+                    <input type="text" class="col form-control" id="" name="user_email" placeholder="mail@mail.ru">
                 </div>
 
-                <button type="submit" class="btn btn-primary">Отправить форму</button>
+                <button type="submit" class="col col4">Отправить форму</button>
             </form>
         </div>
     </div>
     <!-- Footer Elements -->
-    <footer id="footer" class="container row">
-        <div class="row">
-            <h1>Напиши нам</h1>
-        </div>
-        <div class="row">
-            <div class="row col2 col">
-                <a href="#" class="col col2">Почта</a>
-            </div>
-            <div class="row col2 col">
-                <a href="#" class="col col2">О нас</a>
-                <a href="#" class="col col2">Инстаграм</a>
-                <a href="#" class="col col2">Кейсы</a>
-                <a href="#" class="col col2">Твиттер</a>
-            </div>
-
-
-        </div>
-
-    </footer>
+    <div id="foot"></div>
+    <script src="JS/main.js"></script>
 </body>
 
 </html>

@@ -12,7 +12,7 @@ class header extends React.Component {
                 href: "index.html",
                 id: "logo"
             }, "\u041B\u043E\u0433\u043E"), React.createElement("a", {
-                href: "cont.html",
+                href: "about.html",
                 className: "navlink push"
             }, "\u041E \u043D\u0430\u0441"), React.createElement("a", {
                 href: "#",
