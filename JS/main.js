@@ -11,13 +11,12 @@ class header extends React.Component {
             }, React.createElement("a", {
                 href: "index.html",
                 id: "logo"
-            }, "\u041B\u043E\u0433\u043E"), React.createElement("a", {
+            }, React.createElement("img", {
+                src: "../Pics/logo.png"
+            })), React.createElement("a", {
                 href: "about.html",
                 className: "navlink push"
             }, "\u041E \u043D\u0430\u0441"), React.createElement("a", {
-                href: "#",
-                className: "navlink"
-            }, "\u041A\u0435\u0439\u0441\u044B"), React.createElement("a", {
                 href: "news.html",
                 className: "navlink"
             }, "\u041D\u043E\u0432\u043E\u0441\u0442\u0438"), React.createElement("a", {
@@ -51,9 +50,6 @@ class footer extends React.Component {
             href: "#",
             class: "col col2"
         }, "\u0418\u043D\u0441\u0442\u0430\u0433\u0440\u0430\u043C"), React.createElement("a", {
-            href: "#",
-            class: "col col2"
-        }, "\u041A\u0435\u0439\u0441\u044B"), React.createElement("a", {
             href: "#",
             class: "col col2"
         }, "\u0422\u0432\u0438\u0442\u0442\u0435\u0440"))));
