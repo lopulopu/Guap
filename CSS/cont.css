@@ -9,10 +9,23 @@ body {
     background-color: var(--bg-color);
 }
 
+
 #nav>a {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 5rem;
+    width: auto;
+    font-size: larger;
+}
 
+a {
     color: var(--color-text);
+    text-decoration: none;
+}
 
+a:hover {
+    color: #F0E68C;
+    text-decoration: none;
 }
 
 h2,h3 {
