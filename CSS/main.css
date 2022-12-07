@@ -69,20 +69,29 @@ a:hover {
     #logo {
         margin-left: 1rem;
     }
-    #logo img{
+
+    #logo img {
         max-width: 120px;
     }
 
     #footer>* {
         margin-left: 1rem !important;
     }
-    .container{
+
+    .container {
         padding-left: 1rem;
     }
+
     hr {
         margin-left: 2rem;
     }
 
+    .row{
+        padding: 0;
+    }
+    .card, .card-vertical,.card-video{
+        margin-left: 0 !important;
+    }
     .col,
     .col2,
     .col3,
@@ -168,6 +177,7 @@ a:hover {
 
 #footer {
     margin-left: -2.5rem;
+    width: 110%;
     margin-top: 5rem !important;
     background-color: #494949;
     padding-top: 2rem;
@@ -176,6 +186,7 @@ a:hover {
 
 #footer>* {
     margin-left: 3rem;
+    margin-right: -2rem;
 }
 
 #footer>.row>.row>.col {
@@ -352,4 +363,26 @@ button {
 
 .card-video:hover .text {
     opacity: 1;
+}
+
+.svg-arrow {
+    stroke-dasharray: 50px;
+    stroke-dashoffset: 0;
+    stroke: var(--color-text);
+    stroke-width: 1px;
+    fill: var(--color-text);
+    animation: arrow 3s infinite linear;
+}
+
+@keyframes arrow {
+    0% {
+        fill: none;
+        stroke-dashoffset: 100;
+    }
+
+    100% {
+        fill: none;
+        stroke-dasharray: 100px;
+        stroke-dashoffset: 0;
+    }
 }
