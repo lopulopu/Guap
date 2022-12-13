@@ -1,5 +1,5 @@
 body {
-    --bg-color: #393939;
+    --bg-color: #5e5e5e;
     --color-text: aliceblue;
     background-color: var(--bg-color);
     color: var(--color-text);
@@ -415,15 +415,15 @@ button {
   }
   
   .wisteria {
-    color: #ca7aec;
+    color: #bf72e0;
   }
   
   .belize {
-    color: #46a3e0;
+    color: #57e45e;
   }
   
   .pomegranate {
-    color: #ee6f60;
+    color: #ec7a6d;
   }
   
   .green {
