@@ -364,6 +364,9 @@ button {
 .card-video:hover .text {
     opacity: 1;
 }
+.white:hover{
+    background-color: #E0FFFF;
+}
 
 .svg-arrow {
     stroke-dasharray: 50px;
@@ -386,29 +389,13 @@ button {
         stroke-dashoffset: 0;
     }
 }
-
-  
-  .text {
-    
-    width: 450px;
-    
-  }
-  
-  p {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0;
-  }
   
   .word {
-    
-    width: 220px;
-    opacity: 0;
+       opacity: 0;
   }
   
   .letter {
-    display: inline-block;
-    position: relative;
+    display: inline-block;    
     transform: translateZ(25px);
     transform-origin: 50% 50% 25px;
   }
